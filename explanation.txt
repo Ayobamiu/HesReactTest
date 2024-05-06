@@ -1,0 +1,38 @@
+Time spent on the project: 2 days
+
+Explanation of work completed:
+
+The home page, also serving as the reviews page, displays a list of reviews sorted by publication date, with the most recent ones appearing first. The layout is in tabular form, showcasing the image, title, publication date, MPAA rating (displaying "Not Rated" for reviews without a rating), and whether it's a critic's pick (indicated by "Yes" or "No").
+
+Upon initial loading, 20 reviews are shown, with the option to increase this using pageSizeOptions [20, 30, 40, 50], capped at a maximum of 50. Pagination allows users to navigate between pages.
+
+Users can search by title and filter by MPAA rating, publication date, and critic's pick. The search functionality applies the filter as the user types, providing real-time feedback. The Filter button displays a count of the number of filters applied.
+
+Clicking on the title of a review navigates the user to the Review page, where details such as title, image, MPAA rating, critic's pick status (indicated by a green badge), headline, summary of the review, critic's name, and a link to the article are displayed (which opens in a new tab).
+
+The Critics page displays a list of critics, along with the number of reviews each critic has written (represented by a message icon 💬) and how many are critic's picks (represented by a thumbs-up icon 👍). If available, the critic's image and bio are also displayed.
+
+A global Navbar facilitates navigation between the Critics page and Reviews page (Homepage).
+
+Technologies Used:
+Ant Design (antd) for components such as lists and tables
+Tailwind CSS for styling
+Fuzzy-search library for searching within the table
+
+What I didn't get to:
+Using the Tailwind CSS npm package instead of the CDN for production
+Resolving issues with data loading from the store upon page load
+Improving mobile responsiveness in the design
+Further refactoring of the code for optimization
+
+Main works:
+FilterDrawer.jsx
+ReviewList.jsx
+Homepage.jsx
+NavBar.jsx
+ReviewPage.jsx
+CriticsPage.jsx
+SearchBox.jsx
+
+And yes, no Generative AI was involved in this project! 😂
+
