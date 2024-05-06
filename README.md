@@ -60,3 +60,6 @@ The project should be running on localhost:8000. Show us what you got!
 
 
 Please note: We are looking for you to demonstrate your knowledge related to common software practices to include reusability, portability, and encapsulation – to name a few. Interface should also be quite responsive with little or no wait times. Work submitted should be in project form and implemented as you were implementing any production solution.# HesReactTest
+
+<img width="1440" alt="image" src="https://github.com/Ayobamiu/HesReactTest/assets/49147442/eb5cd991-5218-40ce-be4b-8b8bf0e274d3">
+
